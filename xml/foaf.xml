@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
+    xmlns:doac="http://ramonantonio.net/doac/0.1/"> 
+
+  <foaf:Person>
+    <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Joerg Kurt Wegner</foaf:name>
+    <foaf:title>PhD</foaf:title>
+    <foaf:mbox rdf:resource="mailto:me@joergkurtwegner.de"/>
+    <foaf:mbox_sha1sum>f5726af91fa315377a58c9ec92e2920890ec4d9f</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>a2689712d1629f27edb663b372069ea9b523003b</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>4504655b8ae0cb1a0fb60cb049e262dded78d74f</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>24b30ec9eea4a5ec1dcea4e22012251a00c35626</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>403672b815fab29758a9c4bc536d57485e501358</foaf:mbox_sha1sum>
+    <foaf:givenname>Joerg Kurt</foaf:givenname>
+    <foaf:nick>JKW</foaf:nick>
+    <foaf:nick>jkw</foaf:nick>
+    <foaf:nick>joergkurtwegner</foaf:nick>
+    <foaf:family_name>Wegner</foaf:family_name>
+    <foaf:myersBriggs>ENTJ</foaf:myersBriggs>
+    <foaf:gender>male</foaf:gender>
+    
+    <foaf:homepage rdf:resource="http://www.joergkurtwegner.de"/>
+    <foaf:weblog rdf:resource="http://miningdrugs.blogspot.com"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.tibotec.com"/>
+    
+    <foaf:schoolHomepage rdf:resource="http://www.uni-tuebingen.de"/>
+    <foaf:schoolHomepage rdf:resource="http://www.uni-erlangen.org"/>
+    <foaf:schoolHomepage rdf:resource="http://www.zbit.uni-tuebingen.de"/>    
+
+    <foaf:depiction>
+      <foaf:Image rdf:about="http://www.joergkurtwegner.de/images/jkw.jpg">
+        <dc:title>Joerg Kurt Wegner</dc:title>
+      </foaf:Image>
+    </foaf:depiction>
+    
+    <foaf:currentProject>
+      <rdf:Description rdf:about="http://www.tibotec.com">
+	<dc:title>Drug design</dc:title>
+	<dc:description>Antiinfective and antiviral drug design.</dc:description>
+      </rdf:Description>
+    </foaf:currentProject>
+    
+    <foaf:currentProject>
+      <rdf:Description rdf:about="http://www.chemspider.com/Advisory.aspx">
+	<dc:title>Chemspider advisory board</dc:title>
+	<dc:description>Supporting social media for scientists.</dc:description>
+      </rdf:Description>
+    </foaf:currentProject>
+    
+    <foaf:interest>
+      <rdf:Description rdf:about="http://miningdrugs.blogspot.com/2009/05/tag-cloud-mining-drug-space-may-2009.html"
+		       dc:title="Community work in science and ..." />
+    </foaf:interest>
+
+    <!-- SOCIAL MEDIA -->
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.google.com/profiles/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.google.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/in/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://friendfeed.com/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://friendfeed.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://twitter.com/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.slideshare.net/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.slideshare.net"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.facebook.com/joergkurtwegner?ref=profile">
+        <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://delicious.com/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://delicious.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://joergkurtwegner.posterous.com">
+        <foaf:accountServiceHomepage rdf:resource="http://posterous.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://stackoverflow.com/users/171030/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://stackoverflow.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.scribd.com/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.scribd.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://digg.com/users/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://digg.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.flickr.com/people/10117538@N04">
+        <foaf:accountServiceHomepage rdf:resource="http://www.flickr.com"/>
+        <foaf:accountName>10117538@N04</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.goodreads.com/user/show/2075610">
+        <foaf:accountServiceHomepage rdf:resource="http://www.goodreads.com"/>
+        <foaf:accountName>2075610</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.lastfm.de/user/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.lastfm.de"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.mendeley.com/profiles/joerg-kurt-wegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.mendeley.com"/>
+        <foaf:accountName>joerg-kurt-wegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.mybloglog.com/buzz/members/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.mybloglog.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.myspace.com/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.myspace.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.plaxo.com/profile/show/90196372434">
+        <foaf:accountServiceHomepage rdf:resource="http://www.plaxo.com"/>
+        <foaf:accountName>90196372434</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.youtube.com/user/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.youtube.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.stumbleupon.com/stumbler/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.stumbleupon.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <!-- INSTANT MESSAGING -->
+
+	<foaf:account>
+    	<foaf:OnlineAccount>
+      		<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
+      		<foaf:accountServiceHomepage rdf:resource="http://www.skype.com"/>
+      		<foaf:accountName>joergkurtwegner</foaf:accountName>
+    	</foaf:OnlineAccount>
+  	</foaf:account>
+
+	<foaf:account>
+    	<foaf:OnlineAccount>
+      		<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
+      		<foaf:accountServiceHomepage rdf:resource="http://www.icq.com"/>
+      		<foaf:accountName>277160861</foaf:accountName>
+    	</foaf:OnlineAccount>
+  	</foaf:account>
+
+    <!-- PROJECTS -->
+
+    <foaf:currentProject>
+      <foaf:Project>
+        <foaf:homepage>http://www.blueobelisk.org/</foaf:homepage>
+      </foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:currentProject>
+	<foaf:Project>
+	    <foaf:homepage>http://www.chemspider.com/Advisory.aspx</foaf:homepage>
+	</foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:currentProject>
+	<foaf:Project>
+	    <foaf:homepage>http://sourceforge.net/projects/joelib/</foaf:homepage>
+	</foaf:Project>
+    </foaf:currentProject>
+
+    <!-- Description Of A Career (DOAC) -->
+
+    <doac:summary>Scientist at Tibotec</doac:summary>
+    <doac:skill>collaboration</doac:skill>
+    <doac:skill>science</doac:skill>
+    <doac:skill>innovation</doac:skill>
+    <doac:skill>chemistry</doac:skill>
+    <doac:skill>biology</doac:skill>
+    <doac:skill>antiinfective</doac:skill>
+    <doac:skill>virology</doac:skill>
+    <doac:skill>informatics</doac:skill>
+    <doac:skill>crystallography</doac:skill>
+    <doac:skill>drug design</doac:skill>
+    <doac:skill>
+      <doac:LanguageSkill>
+         <doac:language>de</doac:language>
+         <doac:reads rdf:resource="http://ramonantonio.net/doac/0.1/#nativelevel"/>
+         <doac:writes rdf:resource="http://ramonantonio.net/doac/0.1/#nativelevel"/>
+         <doac:speaks rdf:resource="http://ramonantonio.net/doac/0.1/#nativelevel"/>
+       </doac:LanguageSkill>
+   </doac:skill>
+   <doac:skill>
+      <doac:LanguageSkill>
+         <doac:language>en</doac:language>
+         <doac:reads rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+         <doac:writes rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+         <doac:speaks rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+       </doac:LanguageSkill>
+   </doac:skill>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>Scientist</doac:title>
+        <doac:location>Tibotec</doac:location>
+        <doac:location>Johnson &amp; Johnson</doac:location>
+        <doac:date-starts>2007-09-01</doac:date-starts>
+        <doac:activity>collaboration</doac:activity>
+        <doac:activity>innovation</doac:activity>
+        <doac:activity>literature</doac:activity>
+        <doac:activity>antiviral drug research and development</doac:activity>
+        <doac:activity>structure-based drug design</doac:activity>
+        <doac:activity>fragment-based drug design</doac:activity>
+        <doac:activity>drug resistance modeling</doac:activity>
+        <doac:activity>crystallography</doac:activity>
+        <doac:activity>homology modelling</doac:activity>
+        <doac:activity>molecular modeling</doac:activity>
+        <doac:activity>cheminformatics</doac:activity>
+        <doac:activity>statistical modeling</doac:activity>
+        <doac:activity>structural biology</doac:activity>
+        <doac:activity>docking</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>Blogger</doac:title>
+        <doac:location>Mining Drug Space</doac:location>
+        <doac:date-starts>2005</doac:date-starts>
+        <doac:activity>collaboration</doac:activity>
+        <doac:activity>structural biology</doac:activity>
+        <doac:activity>system biology</doac:activity>
+        <doac:activity>innovation</doac:activity>
+        <doac:activity>business</doac:activity>
+        <doac:activity>group dynamics</doac:activity>
+        <doac:activity>drug development</doac:activity>
+        <doac:activity>enterprise 2.0</doac:activity>
+        <doac:activity>decision making</doac:activity>
+        <doac:activity>software engineering</doac:activity>
+        <doac:activity>new molecular entities</doac:activity>
+        <doac:activity>social software</doac:activity>
+        <doac:activity>visualization</doac:activity>
+        <doac:activity>cheminformatics</doac:activity>
+        <doac:activity>bioinformatics</doac:activity>
+        <doac:activity>structure-based drug design</doac:activity>
+        <doac:activity>fragment-based drug design</doac:activity>
+        <doac:activity>molecular modelling</doac:activity>
+        <doac:activity>homology modelling</doac:activity>
+        <doac:activity>information overload</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>Project administrator</doac:title>
+        <doac:location>Open source development</doac:location>
+        <doac:date-starts>2001</doac:date-starts>
+        <doac:activity>cheminformatics</doac:activity>
+        <doac:activity>algorithm development</doac:activity>
+        <doac:activity>data mining</doac:activity>
+        <doac:activity>graph mining</doac:activity>
+        <doac:activity>open source</doac:activity>
+        <doac:activity>software engineering</doac:activity>
+        <doac:activity>java</doac:activity>
+        <doac:activity>matlab</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>PostDoc</doac:title>
+        <doac:location>Tibotec</doac:location>
+        <doac:date-starts>2005-10-01</doac:date-starts>
+        <doac:date-ends>2007-09-01</doac:date-ends>
+        <doac:activity>structure-based drug design</doac:activity>
+        <doac:activity>drug resistance modeling</doac:activity>
+        <doac:activity>crystallography</doac:activity>
+        <doac:activity>molecular modeling</doac:activity>
+        <doac:activity>homology modelling</doac:activity>
+        <doac:activity>statistical modeling</doac:activity>
+        <doac:activity>structural biology</doac:activity>
+        <doac:activity>docking</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>Dr. rer. nat.</doac:title>
+        <doac:title>PhD</doac:title>
+        <doac:location>Center for Bioinformatics T&#252;bingen</doac:location>
+        <doac:date-starts>2002-12-01</doac:date-starts>
+        <doac:date-ends>2005-05-01</doac:date-ends>
+        <doac:activity>teaching structure-based drug design, cheminformatics, molecular modeling, statistical modeling (machine learning, data mining, graph mining), global optimization (evolutionary algorithms, memetic algorithms), algorithm development, combinatorial optimization (graph algorithms)</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>PhD student</doac:title>
+        <doac:location>SOL project (Search and Optimization of Lead structures)</doac:location>
+        <doac:date-starts>2001-01-01</doac:date-starts>
+        <doac:date-ends>2002-12-01</doac:date-ends>
+        <doac:activity>Project partners: 1. Computer-Chemie-Centrum, University of Erlangen-N&#252;rnberg (Prof. Gasteiger); 2. Institute of pharmaceutical chemistry, University of Marburg (Prof. Klebe); 3. Merck, Darmstadt; 4. Solvay, Hannover; 5. Byk Gulden, Konstanz; The SOL-project was supported by the German Federal Ministry of Education and Research (BMBF) , contact number 311681.</doac:activity>
+      </doac:Experience>
+    </doac:experience>
+    <doac:experience>
+      <doac:Experience>
+        <doac:title>Master Thesis</doac:title>
+        <doac:location>Prof. Gasteiger</doac:location>
+        <foaf:organization>Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg</foaf:organization>
+        <doac:date-starts>2000</doac:date-starts>
+        <doac:date-ends>2001</doac:date-ends>
+      </doac:Experience>
+    </doac:experience>
+    <doac:education>
+      <doac:Education>
+      	<doac:title>Dipl. Chem.</doac:title>
+        <foaf:organization>Eberhard-Karls-Universit&#228;t T&#252;bingen</foaf:organization>
+        <doac:title/>
+        <doac:date-starts>2001-01-01</doac:date-starts>
+        <doac:date-ends>2006-12-31</doac:date-ends>
+      </doac:Education>
+    </doac:education>
+    <doac:education>
+      <doac:Education>
+        <foaf:organization>Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg</foaf:organization>
+        <doac:title>Master</doac:title>
+        <doac:date-starts>2000-01-01</doac:date-starts>
+        <doac:date-ends>2001-12-31</doac:date-ends>
+      </doac:Education>
+    </doac:education>
+
+    <!-- KNOWS -->
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Marc Monseau</foaf:name>
+		    <foaf:weblog rdf:resource="http://jnjbtw.com"/>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/JNJComm">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>JNJComm</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Barry Hardy</foaf:name>
+		    <foaf:weblog rdf:resource="http://barryhardy.blogs.com"/>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/barryhardy">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>barryhardy</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Egon Willighagen</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:homepage rdf:resource="http://egonw.github.com"/>
+		    <foaf:weblog rdf:resource="http://chem-bla-ics.blogspot.com"/>
+    		<foaf:mbox_sha1sum>17d767fcc2310ff14ad8702a75f6f00e18214aec</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/egonwillighagen">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>egonwillighagen</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+    
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Pierre Lindenbaum</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:weblog rdf:resource="http://plindenbaum.blogspot.com"/>
+    		<foaf:mbox_sha1sum>2cf55183200d03309d8c2b9fa352b7b24e92cb2b</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/yokofakun">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>yokofakun</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+    
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Deepak Singh</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:homepage rdf:resource="http://mndoci.com"/>
+		    <foaf:weblog rdf:resource="http://mndoci.com"/>
+				<foaf:mbox_sha1sum>c8461ca04507e09204a3bc169ee8a18c4870cf6d</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/mndoci">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>mndoci</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+    
+   <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Geoffrey Hutchison</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:homepage rdf:resource="http://geoffhutchison.net"/>
+    		<foaf:mbox_sha1sum>07deff088720d064c143ad11afcefd3faf352d49</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Noel O'Boyle</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:weblog rdf:resource="http://baoilleach.blogspot.com"/>
+		    <foaf:mbox_sha1sum>a2a8050624fef5629ba6eaf0286ea40c54fa9ed1</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>David Bradley</foaf:name>
+		    <foaf:weblog rdf:resource="http://www.sciencebase.com"/>
+		    <foaf:mbox_sha1sum>d552c40f070174e0b49daad0fd568db4d73d9aa8</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Michael Cariaso</foaf:name>
+		    <foaf:homepage rdf:resource="http://sites.google.com/site/cariaso"/>
+		    <foaf:mbox_sha1sum>2a321d758f04bb1ffaa1c71cc94634547c0419cd</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Cameron Neylon</foaf:name>
+		    <foaf:weblog rdf:resource="http://cameronneylon.net"/>
+		</foaf:Person>
+    </foaf:knows>
+    
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Rajarshi Guha</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:weblog rdf:resource="http://rguha.wordpress.com"/>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Josef Scheiber</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:homepage rdf:resource="http://www.netzseite.de/Joomlaa"/>
+		</foaf:Person>
+    </foaf:knows>
+    
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Antony Williams</foaf:name>
+		    <foaf:weblog rdf:resource="http://www.chemspider.com/blog"/>
+		    <foaf:homepage rdf:resource="http://www.linkedin.com/in/antonywilliams"/>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		    <foaf:mbox_sha1sum>d4a39fb0e4e0a6d60d83ea944735f70b93c83f72</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		    <foaf:mbox_sha1sum>dfde877a4df944525e1d9b4ec67137ee41ec2a98</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		    <foaf:mbox_sha1sum>f8c29b00a0a12bd4d73ee4fa31c14a204bb80ca1</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		    <foaf:mbox_sha1sum>f02689d9a7b586feb7dac1f14b96aca197671069</foaf:mbox_sha1sum>
+		</foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>
