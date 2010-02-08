@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+    xmlns:cc="http://creativecommons.org/ns#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/" 
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
@@ -7,8 +8,15 @@
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
     xmlns:doac="http://ramonantonio.net/doac/0.1/"> 
 
-  <foaf:Person>
-    <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml"/>
+	<foaf:PersonalProfileDocument>
+     <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
+	   <foaf:maker rdf:nodeID="joergkurtwegner"/>
+	   <foaf:primaryTopic rdf:nodeID="joergkurtwegner"/>
+     <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml#joergkurtwegner"/>
+     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+ 	</foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:nodeID="joergkurtwegner">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:name>Joerg Kurt Wegner</foaf:name>
     <foaf:title>PhD</foaf:title>
