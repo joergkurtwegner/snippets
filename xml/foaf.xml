@@ -8,15 +8,15 @@
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
     xmlns:doac="http://ramonantonio.net/doac/0.1/"> 
 
-	<foaf:PersonalProfileDocument>
-     <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
-	   <foaf:maker rdf:nodeID="joergkurtwegner"/>
-	   <foaf:primaryTopic rdf:nodeID="joergkurtwegner"/>
-     <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml#joergkurtwegner"/>
-     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
- 	</foaf:PersonalProfileDocument>
-
-  <foaf:Person rdf:nodeID="joergkurtwegner">
+  <foaf:PersonalProfileDocument rdf:about="http://www.joergkurtwegner.de/foaf.xml">
+    <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
+    <foaf:maker rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
+    <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+  </foaf:PersonalProfileDocument>
+  
+  <foaf:Person rdf:about="http://www.joergkurtwegner.de/foaf.xml#me">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <foaf:name>Joerg Kurt Wegner</foaf:name>
     <foaf:title>PhD</foaf:title>
