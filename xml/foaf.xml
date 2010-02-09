@@ -13,7 +13,6 @@
     <foaf:maker rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
     <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
   </foaf:PersonalProfileDocument>
   
   <foaf:Person rdf:about="http://www.joergkurtwegner.de/foaf.xml#me">
