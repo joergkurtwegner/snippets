@@ -2,29 +2,32 @@
 <rdf:RDF
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/" 
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
     xmlns:doac="http://ramonantonio.net/doac/0.1/"> 
 
-  <foaf:PersonalProfileDocument rdf:about="http://www.joergkurtwegner.de/foaf.xml">
+  <foaf:PersonalProfileDocument rdf:about="http://www.joergkurtwegner.eu/foaf.xml">
     <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
-    <foaf:maker rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
-    <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.de/foaf.xml#me"/>
+    <foaf:maker rdf:resource="http://www.joergkurtwegner.eu/foaf.xml#me"/>
+    <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.eu/foaf.xml#me"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
   </foaf:PersonalProfileDocument>
   
-  <foaf:Person rdf:about="http://www.joergkurtwegner.de/foaf.xml#me">
+  <foaf:Person rdf:about="http://www.joergkurtwegner.eu/foaf.xml#me">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:seeAlso rdf:resource="http://www.joergkurtwegner.eu/foaf.xml"/>
     <foaf:name>Joerg Kurt Wegner</foaf:name>
     <foaf:title>PhD</foaf:title>
-    <foaf:mbox rdf:resource="mailto:me@joergkurtwegner.de"/>
+    <foaf:mbox rdf:resource="mailto:me@joergkurtwegner.eu"/>
     <foaf:mbox_sha1sum>f5726af91fa315377a58c9ec92e2920890ec4d9f</foaf:mbox_sha1sum>
     <foaf:mbox_sha1sum>a2689712d1629f27edb663b372069ea9b523003b</foaf:mbox_sha1sum>
     <foaf:mbox_sha1sum>4504655b8ae0cb1a0fb60cb049e262dded78d74f</foaf:mbox_sha1sum>
     <foaf:mbox_sha1sum>24b30ec9eea4a5ec1dcea4e22012251a00c35626</foaf:mbox_sha1sum>
     <foaf:mbox_sha1sum>403672b815fab29758a9c4bc536d57485e501358</foaf:mbox_sha1sum>
+    <foaf:mbox_sha1sum>4504655b8ae0cb1a0fb60cb049e262dded78d74f</foaf:mbox_sha1sum>
     <foaf:givenname>Joerg Kurt</foaf:givenname>
     <foaf:nick>JKW</foaf:nick>
     <foaf:nick>jkw</foaf:nick>
@@ -32,8 +35,14 @@
     <foaf:family_name>Wegner</foaf:family_name>
     <foaf:myersBriggs>ENTJ</foaf:myersBriggs>
     <foaf:gender>male</foaf:gender>
+    <foaf:based_near>
+      <geo:Point>
+        <geo:lat>51.016667</geo:lat>
+        <geo:long>4.466667</geo:long>
+      </geo:Point>
+    </foaf:based_near>
     
-    <foaf:homepage rdf:resource="http://www.joergkurtwegner.de"/>
+    <foaf:homepage rdf:resource="http://www.joergkurtwegner.eu"/>
     <foaf:weblog rdf:resource="http://miningdrugs.blogspot.com"/>
     <foaf:workplaceHomepage rdf:resource="http://www.tibotec.com"/>
     
@@ -42,7 +51,7 @@
     <foaf:schoolHomepage rdf:resource="http://www.zbit.uni-tuebingen.de"/>    
 
     <foaf:depiction>
-      <foaf:Image rdf:about="http://www.joergkurtwegner.de/images/jkw.jpg">
+      <foaf:Image rdf:about="http://www.joergkurtwegner.eu/public/images/jkw.jpg">
         <dc:title>Joerg Kurt Wegner</dc:title>
       </foaf:Image>
     </foaf:depiction>
@@ -65,6 +74,16 @@
       <rdf:Description rdf:about="http://miningdrugs.blogspot.com/2009/05/tag-cloud-mining-drug-space-may-2009.html"
 		       dc:title="Community work in science and ..." />
     </foaf:interest>
+
+
+    <!-- SCIENCE -->
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.researcherid.com/rid/C-6598-2009">
+        <foaf:accountServiceHomepage rdf:resource="http://www.researcherid.com"/>
+        <foaf:accountName>C-6598-2009</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
 
     <!-- SOCIAL MEDIA -->
 
@@ -444,6 +463,19 @@
 		    </foaf:holdsAccount>
 		</foaf:Person>
     </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Tim Schultz</foaf:name>
+		    <foaf:weblog rdf:resource="http://ramandwhiskey.com/"/>
+    		<foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://twitter.com/Phocion">
+		        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+		        <foaf:accountName>Phocion</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
     
     <foaf:knows>
 		<foaf:Person>
@@ -481,6 +513,7 @@
 		  	<foaf:name>Geoffrey Hutchison</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://geoffhutchison.net"/>
+		    <rdfs:seeAlso rdf:resource="http://geoffhutchison.net/foaf.xrdf"/>
     		<foaf:mbox_sha1sum>07deff088720d064c143ad11afcefd3faf352d49</foaf:mbox_sha1sum>
 		</foaf:Person>
     </foaf:knows>
@@ -522,6 +555,104 @@
 		  	<foaf:name>Rajarshi Guha</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:weblog rdf:resource="http://rguha.wordpress.com"/>
+		</foaf:Person>
+    </foaf:knows>
+    
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Hinrich W.H. Göhlmann</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:weblog rdf:resource="http://goehlmann.info/blog"/>
+		    <foaf:homepage rdf:resource="http://goehlmann.info"/>
+		    <foaf:mbox_sha1sum>2a842437c86fe423d770c51ee3ee5e694bd58408</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/in/goehlmann">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>goehlmann</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Laurent Alquier</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:homepage rdf:resource="http://www.alquier.org/laurent/"/>
+		    <foaf:mbox_sha1sum>60bb71ad78f6210164de12a2caf7961e0fa6045f</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/in/lalquier">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>lalquier</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Naomi Clark-Turner</foaf:name>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/pub/naomi-clark-turner/1/278/a59">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>naomi-clark-turner</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+        
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Harriet Stein</foaf:name>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/pub/harriet-stein/1/519/228">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>harriet-stein</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+        
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Jan Vorwerk</foaf:name>
+		    <foaf:homepage rdf:resource="http://www.jottvau.de"/>
+        <foaf:mbox_sha1sum>ebd587ef66d6f7de6b4f4b176fba8cdba877173a</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://de.linkedin.com/in/janvorwerk">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>janvorwerk</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Tom Aelbrecht</foaf:name>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://be.linkedin.com/in/tomaelbrecht">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>tomaelbrecht</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+        
+    <foaf:knows>
+		<foaf:Person>
+		  	<foaf:name>Andreas Kieron Patrick Bender</foaf:name>
+		    <foaf:title>PhD</foaf:title>
+		    <foaf:nick>Anoop</foaf:nick>
+		    <foaf:homepage rdf:resource="http://www.andreasbender.de/"/>
+		    <foaf:mbox_sha1sum>66018be4eb244f2a2af32c6e89954682351f1631</foaf:mbox_sha1sum>
+        <foaf:mbox_sha1sum>dfde877a4df944525e1d9b4ec67137ee41ec2a98</foaf:mbox_sha1sum>
+		    <foaf:holdsAccount>
+		      <foaf:OnlineAccount rdf:about="http://uk.linkedin.com/pub/andreas-bender/1/144/144">
+		        <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
+		        <foaf:accountName>andreas-bender</foaf:accountName>
+		      </foaf:OnlineAccount>
+		    </foaf:holdsAccount>
 		</foaf:Person>
     </foaf:knows>
 
