@@ -53,6 +53,7 @@
     <foaf:depiction>
       <foaf:Image rdf:about="http://www.joergkurtwegner.eu/public/images/jkw.jpg">
         <dc:title>Joerg Kurt Wegner</dc:title>
+        <dc:description>That's me ;-)</dc:description>
       </foaf:Image>
     </foaf:depiction>
     
@@ -82,6 +83,7 @@
       <foaf:OnlineAccount rdf:about="http://www.researcherid.com/rid/C-6598-2009">
         <foaf:accountServiceHomepage rdf:resource="http://www.researcherid.com"/>
         <foaf:accountName>C-6598-2009</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.researcherid.com/rid/C-6598-2009"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -91,6 +93,7 @@
       <foaf:OnlineAccount rdf:about="http://www.google.com/profiles/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.google.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.google.com/profiles/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -98,6 +101,7 @@
       <foaf:OnlineAccount rdf:about="http://www.linkedin.com/in/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.linkedin.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.linkedin.com/in/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -105,6 +109,7 @@
       <foaf:OnlineAccount rdf:about="http://friendfeed.com/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://friendfeed.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://friendfeed.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -112,6 +117,7 @@
       <foaf:OnlineAccount rdf:about="http://twitter.com/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://twitter.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -119,6 +125,7 @@
       <foaf:OnlineAccount rdf:about="http://www.slideshare.net/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.slideshare.net"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.slideshare.net/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -126,6 +133,7 @@
       <foaf:OnlineAccount rdf:about="http://www.facebook.com/joergkurtwegner?ref=profile">
         <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.facebook.com/joergkurtwegner?ref=profile"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -133,6 +141,7 @@
       <foaf:OnlineAccount rdf:about="http://delicious.com/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://delicious.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://delicious.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -140,6 +149,7 @@
       <foaf:OnlineAccount rdf:about="http://joergkurtwegner.posterous.com">
         <foaf:accountServiceHomepage rdf:resource="http://posterous.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://joergkurtwegner.posterous.com"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -147,6 +157,7 @@
       <foaf:OnlineAccount rdf:about="http://stackoverflow.com/users/171030/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://stackoverflow.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://stackoverflow.com/users/171030/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -154,6 +165,7 @@
       <foaf:OnlineAccount rdf:about="http://www.scribd.com/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.scribd.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.scribd.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -161,6 +173,7 @@
       <foaf:OnlineAccount rdf:about="http://digg.com/users/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://digg.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://digg.com/users/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -168,6 +181,7 @@
       <foaf:OnlineAccount rdf:about="http://www.flickr.com/people/10117538@N04">
         <foaf:accountServiceHomepage rdf:resource="http://www.flickr.com"/>
         <foaf:accountName>10117538@N04</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.flickr.com/people/10117538@N04"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -175,6 +189,7 @@
       <foaf:OnlineAccount rdf:about="http://www.goodreads.com/user/show/2075610">
         <foaf:accountServiceHomepage rdf:resource="http://www.goodreads.com"/>
         <foaf:accountName>2075610</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.goodreads.com/user/show/2075610"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -182,6 +197,7 @@
       <foaf:OnlineAccount rdf:about="http://www.lastfm.de/user/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.lastfm.de"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.lastfm.de/user/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -189,6 +205,7 @@
       <foaf:OnlineAccount rdf:about="http://www.mendeley.com/profiles/joerg-kurt-wegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.mendeley.com"/>
         <foaf:accountName>joerg-kurt-wegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.mendeley.com/profiles/joerg-kurt-wegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -196,6 +213,7 @@
       <foaf:OnlineAccount rdf:about="http://www.mybloglog.com/buzz/members/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.mybloglog.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.mybloglog.com/buzz/members/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -203,6 +221,7 @@
       <foaf:OnlineAccount rdf:about="http://www.myspace.com/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.myspace.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.myspace.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -210,6 +229,7 @@
       <foaf:OnlineAccount rdf:about="http://www.plaxo.com/profile/show/90196372434">
         <foaf:accountServiceHomepage rdf:resource="http://www.plaxo.com"/>
         <foaf:accountName>90196372434</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.plaxo.com/profile/show/90196372434"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -217,6 +237,7 @@
       <foaf:OnlineAccount rdf:about="http://www.youtube.com/user/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.youtube.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.youtube.com/user/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -224,6 +245,7 @@
       <foaf:OnlineAccount rdf:about="http://www.stumbleupon.com/stumbler/joergkurtwegner">
         <foaf:accountServiceHomepage rdf:resource="http://www.stumbleupon.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.stumbleupon.com/stumbler/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
