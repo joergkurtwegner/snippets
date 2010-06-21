@@ -7,7 +7,8 @@
     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
-    xmlns:doac="http://ramonantonio.net/doac/0.1/"> 
+    xmlns:doac="http://ramonantonio.net/doac/0.1/"
+    xmlns:rel="http://vocab.org/relationship/"> 
 
   <foaf:PersonalProfileDocument rdf:about="http://www.joergkurtwegner.eu/foaf.xml">
     <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
@@ -42,13 +43,13 @@
       </geo:Point>
     </foaf:based_near>
     
-    <foaf:homepage rdf:resource="http://www.joergkurtwegner.eu"/>
-    <foaf:weblog rdf:resource="http://miningdrugs.blogspot.com"/>
-    <foaf:workplaceHomepage rdf:resource="http://www.tibotec.com"/>
+    <foaf:homepage rdf:resource="http://www.joergkurtwegner.eu" dc:title="joergkurtwegner: Knowledge=People+Information"/>
+    <foaf:weblog rdf:resource="http://miningdrugs.blogspot.com" dc:title="Mining Drug Space"/>
+    <foaf:workplaceHomepage rdf:resource="http://www.tibotec.com" dc:title="Tibotec"/>
     
-    <foaf:schoolHomepage rdf:resource="http://www.uni-tuebingen.de"/>
-    <foaf:schoolHomepage rdf:resource="http://www.uni-erlangen.org"/>
-    <foaf:schoolHomepage rdf:resource="http://www.zbit.uni-tuebingen.de"/>    
+    <foaf:schoolHomepage rdf:resource="http://www.uni-tuebingen.de" dc:title="University of Tübingen"/>
+    <foaf:schoolHomepage rdf:resource="http://www.uni-erlangen.org" dc:title="University of Erlangen"/>
+    <foaf:schoolHomepage rdf:resource="http://www.zbit.uni-tuebingen.de" dc:title="Center for Bioinformatics Tübingen"/>    
 
     <foaf:depiction>
       <foaf:Image rdf:about="http://www.joergkurtwegner.eu/public/images/jkw.jpg">
@@ -445,7 +446,7 @@
     <!-- KNOWS -->
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="marcmonseau">
 		  	<foaf:name>Marc Monseau</foaf:name>
 		    <foaf:weblog rdf:resource="http://jnjbtw.com"/>
 		    <foaf:holdsAccount>
@@ -458,7 +459,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="barryhardy">
 		  	<foaf:name>Barry Hardy</foaf:name>
 		    <foaf:weblog rdf:resource="http://barryhardy.blogs.com"/>
 		    <foaf:holdsAccount>
@@ -471,7 +472,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="egonwillighagen">
 		  	<foaf:name>Egon Willighagen</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://egonw.github.com"/>
@@ -487,7 +488,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="timschultz">
 		  	<foaf:name>Tim Schultz</foaf:name>
 		    <foaf:weblog rdf:resource="http://ramandwhiskey.com/"/>
     		<foaf:holdsAccount>
@@ -500,7 +501,7 @@
     </foaf:knows>
     
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="pierrelindenbaum">
 		  	<foaf:name>Pierre Lindenbaum</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:weblog rdf:resource="http://plindenbaum.blogspot.com"/>
@@ -515,7 +516,7 @@
     </foaf:knows>
     
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="deepaksingh">
 		  	<foaf:name>Deepak Singh</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://mndoci.com"/>
@@ -531,7 +532,7 @@
     </foaf:knows>
     
    <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="geoffreyhutchinson">
 		  	<foaf:name>Geoffrey Hutchison</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://geoffhutchison.net"/>
@@ -541,7 +542,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="noeloboyle">
 		  	<foaf:name>Noel O'Boyle</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:weblog rdf:resource="http://baoilleach.blogspot.com"/>
@@ -550,7 +551,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="davidbradley">
 		  	<foaf:name>David Bradley</foaf:name>
 		    <foaf:weblog rdf:resource="http://www.sciencebase.com"/>
 		    <foaf:mbox_sha1sum>d552c40f070174e0b49daad0fd568db4d73d9aa8</foaf:mbox_sha1sum>
@@ -558,7 +559,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="michelcariaso">
 		  	<foaf:name>Michael Cariaso</foaf:name>
 		    <foaf:homepage rdf:resource="http://sites.google.com/site/cariaso"/>
 		    <foaf:mbox_sha1sum>2a321d758f04bb1ffaa1c71cc94634547c0419cd</foaf:mbox_sha1sum>
@@ -566,14 +567,14 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="cameronneylon">
 		  	<foaf:name>Cameron Neylon</foaf:name>
 		    <foaf:weblog rdf:resource="http://cameronneylon.net"/>
 		</foaf:Person>
     </foaf:knows>
     
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="rajarshiguha">
 		  	<foaf:name>Rajarshi Guha</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:weblog rdf:resource="http://rguha.wordpress.com"/>
@@ -581,7 +582,7 @@
     </foaf:knows>
     
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="hinrichgoehlmann">
 		  	<foaf:name>Hinrich W.H. Göhlmann</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:weblog rdf:resource="http://goehlmann.info/blog"/>
@@ -597,7 +598,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="laurentalquier">
 		  	<foaf:name>Laurent Alquier</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://www.alquier.org/laurent/"/>
@@ -612,7 +613,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="naomiclarkturner">
 		  	<foaf:name>Naomi Clark-Turner</foaf:name>
 		    <foaf:holdsAccount>
 		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/pub/naomi-clark-turner/1/278/a59">
@@ -624,7 +625,7 @@
     </foaf:knows>
         
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="harrietstein">
 		  	<foaf:name>Harriet Stein</foaf:name>
 		    <foaf:holdsAccount>
 		      <foaf:OnlineAccount rdf:about="http://www.linkedin.com/pub/harriet-stein/1/519/228">
@@ -636,7 +637,7 @@
     </foaf:knows>
         
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="janvorwerk">
 		  	<foaf:name>Jan Vorwerk</foaf:name>
 		    <foaf:homepage rdf:resource="http://www.jottvau.de"/>
         <foaf:mbox_sha1sum>ebd587ef66d6f7de6b4f4b176fba8cdba877173a</foaf:mbox_sha1sum>
@@ -650,7 +651,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="tomaelbrecht">
 		  	<foaf:name>Tom Aelbrecht</foaf:name>
 		    <foaf:holdsAccount>
 		      <foaf:OnlineAccount rdf:about="http://be.linkedin.com/in/tomaelbrecht">
@@ -662,7 +663,7 @@
     </foaf:knows>
         
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="andreasbender">
 		  	<foaf:name>Andreas Kieron Patrick Bender</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:nick>Anoop</foaf:nick>
@@ -679,7 +680,7 @@
     </foaf:knows>
 
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="josefscheiber">
 		  	<foaf:name>Josef Scheiber</foaf:name>
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://www.netzseite.de/Joomlaa"/>
@@ -687,10 +688,26 @@
     </foaf:knows>
     
     <foaf:knows>
-		<foaf:Person>
+		<foaf:Person rdf:ID="antonywilliams">
 		  	<foaf:name>Antony Williams</foaf:name>
 		    <foaf:weblog rdf:resource="http://www.chemspider.com/blog"/>
 		    <foaf:homepage rdf:resource="http://www.linkedin.com/in/antonywilliams"/>
+		</foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+		<foaf:Person rdf:ID="martinborho">
+		  	<foaf:name>Martin Borho</foaf:name>
+		    <foaf:weblog rdf:resource="http://blog.borho.net"/>
+		    <foaf:homepage rdf:resource="http://www.borho.net" />
+		    <foaf:mbox_sha1sum>ed60beb905cda94d2ad3386e84f1352e241dc10b</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="http://www.borho.net/mborho.foaf"/>
+        <foaf:holdsAccount>
+            <foaf:OnlineAccount>
+                <foaf:accountServiceHomepage rdf:resource="http://bm.doomicile.de" />
+                <foaf:accountName>mbo</foaf:accountName>
+            </foaf:OnlineAccount>
+        </foaf:holdsAccount> 
 		</foaf:Person>
     </foaf:knows>
 
@@ -717,5 +734,36 @@
 		    <foaf:mbox_sha1sum>f02689d9a7b586feb7dac1f14b96aca197671069</foaf:mbox_sha1sum>
 		</foaf:Person>
     </foaf:knows>
+
+    <!-- RELATIONSHIP -->
+    
+    <rel:friendOf rdf:nodeID="egonwillighagen" />
+      
+    <rel:worksWith rdf:nodeID="marcmonseau" />
+    <rel:worksWith rdf:nodeID="timschultz" />
+    <rel:worksWith rdf:nodeID="tomaelbrecht" />
+    <rel:worksWith rdf:nodeID="harrietstein" />
+    <rel:worksWith rdf:nodeID="janvorwerk" />
+    <rel:worksWith rdf:nodeID="naomiclarkturner" />
+    <rel:worksWith rdf:nodeID="laurentalquier" />
+    <rel:worksWith rdf:nodeID="hinrichgoehlmann" />
+    
+    <rel:colleagueOf rdf:nodeID="egonwillighagen" />
+    <rel:colleagueOf rdf:nodeID="geoffreyhutchinson" />
+    <rel:colleagueOf rdf:nodeID="deepaksingh" />
+    <rel:colleagueOf rdf:nodeID="andreasbender" />
+    <rel:colleagueOf rdf:nodeID="josefscheiber" />
+    <rel:colleagueOf rdf:nodeID="antonywilliams" />
+    <rel:colleagueOf rdf:nodeID="noeloboyle" />
+    <rel:colleagueOf rdf:nodeID="rajarshiguha" />
+    <rel:colleagueOf rdf:nodeID="pierrelindenbaum" />
+    
+    <rel:collaboratesWith rdf:nodeID="barryhardy" />
+    <rel:collaboratesWith rdf:nodeID="martinborho" />
+    <rel:collaboratesWith rdf:nodeID="davidbradley" />
+    <rel:collaboratesWith rdf:nodeID="cameronneylon" />
+
+    <rel:hasMet rdf:nodeID="michelcariaso" />
+    
   </foaf:Person>
 </rdf:RDF>
