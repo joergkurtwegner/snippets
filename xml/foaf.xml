@@ -701,7 +701,7 @@
 		    <foaf:weblog rdf:resource="http://blog.borho.net"/>
 		    <foaf:homepage rdf:resource="http://www.borho.net" />
 		    <foaf:mbox_sha1sum>ed60beb905cda94d2ad3386e84f1352e241dc10b</foaf:mbox_sha1sum>
-        <rdfs:seeAlso rdf:resource="http://www.borho.net/mborho.foaf"/>
+        <rdfs:seeAlso rdf:resource="http://www.borho.net/mborho-foaf.rdf"/>
         <foaf:holdsAccount>
             <foaf:OnlineAccount>
                 <foaf:accountServiceHomepage rdf:resource="http://bm.doomicile.de" />
