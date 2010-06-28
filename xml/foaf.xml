@@ -477,6 +477,7 @@
 		    <foaf:title>PhD</foaf:title>
 		    <foaf:homepage rdf:resource="http://egonw.github.com"/>
 		    <foaf:weblog rdf:resource="http://chem-bla-ics.blogspot.com"/>
+    		<rdfs:seeAlso rdf:resource="http://egonw.github.com/"/>
     		<foaf:mbox_sha1sum>17d767fcc2310ff14ad8702a75f6f00e18214aec</foaf:mbox_sha1sum>
 		    <foaf:holdsAccount>
 		      <foaf:OnlineAccount rdf:about="http://twitter.com/egonwillighagen">
