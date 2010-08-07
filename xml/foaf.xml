@@ -8,14 +8,16 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#" 
     xmlns:doac="http://ramonantonio.net/doac/0.1/"
-    xmlns:rel="http://vocab.org/relationship/"> 
+    xmlns:rel="http://vocab.org/relationship/"
+    xmlns:admin="http://webns.net/mvcb/"> 
 
   <foaf:PersonalProfileDocument rdf:about="http://www.joergkurtwegner.eu/foaf.xml">
     <dc:title>Joerg Kurt Wegner's FOAF file</dc:title>
     <foaf:maker rdf:resource="http://www.joergkurtwegner.eu/foaf.xml#me"/>
     <foaf:primaryTopic rdf:resource="http://www.joergkurtwegner.eu/foaf.xml#me"/>
-    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
-  </foaf:PersonalProfileDocument>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <admin:errorReportsTo rdf:resource="mailto:me@joergkurtwegner.eu"/>
+ </foaf:PersonalProfileDocument>
   
   <foaf:Person rdf:about="http://www.joergkurtwegner.eu/foaf.xml#me">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -286,6 +288,12 @@
 	<foaf:Project>
 	    <foaf:homepage>http://sourceforge.net/projects/joelib/</foaf:homepage>
 	</foaf:Project>
+    </foaf:currentProject>
+
+    <foaf:currentProject>
+      <foaf:Project>
+        <foaf:homepage>http://www.science3point0.com</foaf:homepage>
+      </foaf:Project>
     </foaf:currentProject>
 
     <!-- Description Of A Career (DOAC) -->
@@ -736,6 +744,29 @@
 		</foaf:Person>
     </foaf:knows>
 
+    <foaf:knows>
+		<foaf:Person rdf:ID="markhahnel">
+		  	<foaf:name>Mark Hahnel</foaf:name>
+		    <foaf:homepage rdf:resource="http://www.science3point0.com" />
+		    <foaf:mbox_sha1sum>4ff31eb1e2f550dc6588b181f3ec5ebb8f164a3a</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="http://www.science3point0.com/foaf.rdf"/>
+        <foaf:holdsAccount>
+          <foaf:OnlineAccount rdf:about="http://friendfeed.com/science3point0">
+            <foaf:accountServiceHomepage rdf:resource="http://friendfeed.com"/>
+            <foaf:accountName>science3point0</foaf:accountName>
+            <foaf:accountProfilePage rdf:resource="http://friendfeed.com/science3point0"/>
+          </foaf:OnlineAccount>
+        </foaf:holdsAccount>    
+        <foaf:holdsAccount>
+          <foaf:OnlineAccount rdf:about="http://twitter.com/science3point0">
+            <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+            <foaf:accountName>science3point0</foaf:accountName>
+            <foaf:accountProfilePage rdf:resource="http://twitter.com/science3point0"/>
+          </foaf:OnlineAccount>
+        </foaf:holdsAccount>
+		</foaf:Person>
+    </foaf:knows>
+
     <!-- RELATIONSHIP -->
     
     <rel:friendOf rdf:nodeID="egonwillighagen" />
@@ -759,6 +790,7 @@
     <rel:colleagueOf rdf:nodeID="rajarshiguha" />
     <rel:colleagueOf rdf:nodeID="pierrelindenbaum" />
     
+    <rel:collaboratesWith rdf:nodeID="markhahnel" />
     <rel:collaboratesWith rdf:nodeID="barryhardy" />
     <rel:collaboratesWith rdf:nodeID="martinborho" />
     <rel:collaboratesWith rdf:nodeID="davidbradley" />
