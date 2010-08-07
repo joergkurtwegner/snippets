@@ -76,8 +76,8 @@
     
     <foaf:currentProject>
       <rdf:Description rdf:about="http://www.science3point0.com/wiki/the-science-3-0-team/">
-	    <dc:title>Science 3.0 board</dc:title>
-	    <dc:description>Community director for building a science community.</dc:description>
+	    <dc:title>Science 3.0 community director</dc:title>
+	    <dc:description>Building a science community.</dc:description>
       </rdf:Description>
     </foaf:currentProject>
     
