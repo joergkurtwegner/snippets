@@ -62,15 +62,22 @@
     
     <foaf:currentProject>
       <rdf:Description rdf:about="http://www.tibotec.com">
-	<dc:title>Drug design</dc:title>
-	<dc:description>Antiinfective and antiviral drug design.</dc:description>
+	    <dc:title>Drug design</dc:title>
+	    <dc:description>Antiinfective and antiviral drug design.</dc:description>
       </rdf:Description>
     </foaf:currentProject>
     
     <foaf:currentProject>
       <rdf:Description rdf:about="http://www.chemspider.com/Advisory.aspx">
-	<dc:title>Chemspider advisory board</dc:title>
-	<dc:description>Supporting social media for scientists.</dc:description>
+	    <dc:title>Chemspider advisory board</dc:title>
+	    <dc:description>Supporting social media for scientists.</dc:description>
+      </rdf:Description>
+    </foaf:currentProject>
+    
+    <foaf:currentProject>
+      <rdf:Description rdf:about="http://www.science3point0.com/wiki/the-science-3-0-team/">
+	    <dc:title>Science 3.0 advisory board</dc:title>
+	    <dc:description>Community director for building a science community.</dc:description>
       </rdf:Description>
     </foaf:currentProject>
     
