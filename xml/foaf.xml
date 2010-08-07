@@ -259,6 +259,14 @@
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="https://flattr.com/profile/joergkurtwegner">
+        <foaf:accountServiceHomepage rdf:resource="https://flattr.com"/>
+        <foaf:accountName>joergkurtwegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="https://flattr.com/profile/joergkurtwegner"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
     <!-- INSTANT MESSAGING -->
 
 	<foaf:account>
