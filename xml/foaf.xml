@@ -97,13 +97,21 @@
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.mendeley.com/profiles/joerg-kurt-wegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.mendeley.com"/>
+        <foaf:accountName>joerg-kurt-wegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.mendeley.com/profiles/joerg-kurt-wegner"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
     <!-- SOCIAL MEDIA -->
 
     <foaf:holdsAccount>
-      <foaf:OnlineAccount rdf:about="http://www.google.com/profiles/joergkurtwegner">
-        <foaf:accountServiceHomepage rdf:resource="http://www.google.com"/>
-        <foaf:accountName>joergkurtwegner</foaf:accountName>
-        <foaf:accountProfilePage rdf:resource="http://www.google.com/profiles/joergkurtwegner"/>
+      <foaf:OnlineAccount rdf:about="https://plus.google.com/116731043002877336055">
+        <foaf:accountServiceHomepage rdf:resource="https://plus.google.com"/>
+        <foaf:accountName>116731043002877336055</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="https://plus.google.com/116731043002877336055"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -208,14 +216,6 @@
         <foaf:accountServiceHomepage rdf:resource="http://www.lastfm.de"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
         <foaf:accountProfilePage rdf:resource="http://www.lastfm.de/user/joergkurtwegner"/>
-      </foaf:OnlineAccount>
-    </foaf:holdsAccount>
-
-    <foaf:holdsAccount>
-      <foaf:OnlineAccount rdf:about="http://www.mendeley.com/profiles/joerg-kurt-wegner">
-        <foaf:accountServiceHomepage rdf:resource="http://www.mendeley.com"/>
-        <foaf:accountName>joerg-kurt-wegner</foaf:accountName>
-        <foaf:accountProfilePage rdf:resource="http://www.mendeley.com/profiles/joerg-kurt-wegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
