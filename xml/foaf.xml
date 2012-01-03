@@ -113,6 +113,14 @@
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://www.researchgate.net/profile/Joerg_Wegner">
+        <foaf:accountServiceHomepage rdf:resource="http://www.researchgate.net"/>
+        <foaf:accountName>Joerg_Wegner</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://www.researchgate.net/profile/Joerg_Wegner"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
     <!-- SOCIAL MEDIA -->
 
     <foaf:holdsAccount>
@@ -160,14 +168,6 @@
         <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
         <foaf:accountProfilePage rdf:resource="http://www.facebook.com/joergkurtwegner?ref=profile"/>
-      </foaf:OnlineAccount>
-    </foaf:holdsAccount>
-
-    <foaf:holdsAccount>
-      <foaf:OnlineAccount rdf:about="http://delicious.com/joergkurtwegner">
-        <foaf:accountServiceHomepage rdf:resource="http://delicious.com"/>
-        <foaf:accountName>joergkurtwegner</foaf:accountName>
-        <foaf:accountProfilePage rdf:resource="http://delicious.com/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -224,14 +224,6 @@
         <foaf:accountServiceHomepage rdf:resource="http://www.lastfm.de"/>
         <foaf:accountName>joergkurtwegner</foaf:accountName>
         <foaf:accountProfilePage rdf:resource="http://www.lastfm.de/user/joergkurtwegner"/>
-      </foaf:OnlineAccount>
-    </foaf:holdsAccount>
-
-    <foaf:holdsAccount>
-      <foaf:OnlineAccount rdf:about="http://www.mybloglog.com/buzz/members/joergkurtwegner">
-        <foaf:accountServiceHomepage rdf:resource="http://www.mybloglog.com"/>
-        <foaf:accountName>joergkurtwegner</foaf:accountName>
-        <foaf:accountProfilePage rdf:resource="http://www.mybloglog.com/buzz/members/joergkurtwegner"/>
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
@@ -302,20 +294,8 @@
     </foaf:currentProject>
 
     <foaf:currentProject>
-	<foaf:Project>
-	    <foaf:homepage>http://www.chemspider.com/Advisory.aspx</foaf:homepage>
-	</foaf:Project>
-    </foaf:currentProject>
-
-    <foaf:currentProject>
-	<foaf:Project>
-	    <foaf:homepage>http://sourceforge.net/projects/joelib/</foaf:homepage>
-	</foaf:Project>
-    </foaf:currentProject>
-
-    <foaf:currentProject>
       <foaf:Project>
-        <foaf:homepage>http://www.science3point0.com</foaf:homepage>
+	      <foaf:homepage>http://sourceforge.net/projects/joelib/</foaf:homepage>
       </foaf:Project>
     </foaf:currentProject>
 
@@ -332,6 +312,8 @@
     <doac:skill>informatics</doac:skill>
     <doac:skill>crystallography</doac:skill>
     <doac:skill>drug design</doac:skill>
+    <doac:skill>chemogenomics</doac:skill>
+    <doac:skill>pharmacogenomics</doac:skill>
     <doac:skill>
       <doac:LanguageSkill>
          <doac:language>de</doac:language>
@@ -343,6 +325,14 @@
    <doac:skill>
       <doac:LanguageSkill>
          <doac:language>en</doac:language>
+         <doac:reads rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+         <doac:writes rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+         <doac:speaks rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
+       </doac:LanguageSkill>
+   </doac:skill>
+   <doac:skill>
+      <doac:LanguageSkill>
+         <doac:language>nl</doac:language>
          <doac:reads rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
          <doac:writes rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
          <doac:speaks rdf:resource="http://ramonantonio.net/doac/0.1/#highlevel"/>
@@ -368,6 +358,8 @@
         <doac:activity>statistical modeling</doac:activity>
         <doac:activity>structural biology</doac:activity>
         <doac:activity>docking</doac:activity>
+        <doac:activity>chemogenomics</doac:activity>
+        <doac:activity>pharmacogenomics</doac:activity>
       </doac:Experience>
     </doac:experience>
     <doac:experience>
