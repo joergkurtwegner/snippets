@@ -105,6 +105,14 @@
       </foaf:OnlineAccount>
     </foaf:holdsAccount>
 
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount rdf:about="http://scholar.google.com/citations?user=97AvWs0AAAAJ">
+        <foaf:accountServiceHomepage rdf:resource="http://scholar.google.com"/>
+        <foaf:accountName>97AvWs0AAAAJ</foaf:accountName>
+        <foaf:accountProfilePage rdf:resource="http://scholar.google.com/citations?user=97AvWs0AAAAJ"/>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
     <!-- SOCIAL MEDIA -->
 
     <foaf:holdsAccount>
