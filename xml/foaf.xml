@@ -67,20 +67,6 @@
       </rdf:Description>
     </foaf:currentProject>
     
-    <foaf:currentProject>
-      <rdf:Description rdf:about="http://www.chemspider.com/Advisory.aspx">
-	    <dc:title>Chemspider advisory board</dc:title>
-	    <dc:description>Supporting social media for scientists.</dc:description>
-      </rdf:Description>
-    </foaf:currentProject>
-    
-    <foaf:currentProject>
-      <rdf:Description rdf:about="http://www.science3point0.com/wiki/the-science-3-0-team/">
-	    <dc:title>Science 3.0 community director</dc:title>
-	    <dc:description>Building a science community.</dc:description>
-      </rdf:Description>
-    </foaf:currentProject>
-    
     <foaf:interest>
       <rdf:Description rdf:about="http://miningdrugs.blogspot.com/2009/05/tag-cloud-mining-drug-space-may-2009.html"
 		       dc:title="Community work in science and ..." />
